@@ -22,4 +22,11 @@ $ docker build -t cavatica .      # Build docker image
 $ docker run -it cavatica:latest  # Run interactively
 ```
 
+Singularity file
+
+```
+$ singularity build cavatica.simg cavatica.def  # build image
+$ singularity shell cavatica.simg               # run interactively
+```
+
 
