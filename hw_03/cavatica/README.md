@@ -15,4 +15,11 @@ Implementation
 * provide a singularity solution
 * upload to Hubs (both)
 
+Dockerfile
+
+```
+$ docker build -t cavatica .      # Build docker image
+$ docker run -it cavatica:latest  # Run interactively
+```
+
 
